@@ -6,9 +6,15 @@ This is the first-use guide for any agent installing `send-to-kobo`. Use the use
 
 You need Python 3.10 or newer, access to `https://www.instapaper.com`, an Instapaper account, and a Kobo offering **My Articles → Link with Instapaper**. No custom firmware or Python packages are required. The skills CLI additionally needs a supported Node.js version; check its current requirements if installation fails.
 
-Install with `npx skills@latest add wapgear/skils --skill send-to-kobo`, selecting the user's agent and project/global scope. If the CLI is unavailable, copy the complete `skills/send-to-kobo` directory into the agent's documented skills directory. Keep `scripts/` and `references/` with `SKILL.md`. Avoid duplicate installations through both a plugin and the CLI.
+Install with `npx skills@latest add wapgear/skills --skill send-to-kobo`, selecting the user's agent and project/global scope. If the CLI is unavailable, copy the complete `skills/send-to-kobo` directory into the agent's documented skills directory. Keep `scripts/` and `references/` with `SKILL.md`. Avoid duplicate installations through both a plugin and the CLI.
 
 Locate the installed skill and run its script with `--help`. Every command below assumes the working directory is the installed skill folder. On systems using `python` rather than `python3`, use the available Python 3.10+ executable.
+
+You can ask an agent:
+
+> Install the send-to-kobo skill from https://github.com/wapgear/skills. Read its setup guide and help me connect my own Instapaper account. Keep my credentials outside the repo and chat. Then send a short test to my Kobo.
+
+This skill is independently maintained and is not affiliated with or endorsed by Instapaper or Rakuten Kobo.
 
 ## Connect the user's account
 

@@ -1,9 +1,13 @@
 {
   "name": "wapgear",
-  "owner": {"name": "wapgear"},
-  "plugins": [{
-    "name": "wapgear-skills",
-    "source": "./",
-    "description": "Send selected reports privately to Kobo through Instapaper."
-  }]
+  "owner": {
+    "name": "wapgear"
+  },
+  "plugins": [
+    {
+      "name": "wapgear-skills",
+      "source": "./",
+      "description": "A public collection of practical skills for AI agents."
+    }
+  ]
 }

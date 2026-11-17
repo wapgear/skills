@@ -6,6 +6,8 @@ license: MIT
 
 # Send this to my Kobo
 
+Finished a research report or a long conversation? Ask your agent to **“Send this to my Kobo.”** It prepares a readable copy and uploads it privately to your own Instapaper account. Refresh **My Articles** on your Kobo to read it. No public webpage or custom firmware is needed.
+
 Requires Python 3.10+, network access, a personal API token and a Kobo with My Articles. No Python dependencies.
 
 Use the bundled `scripts/instapaper.py` with the user's own Instapaper API v2 token. Resolve script paths relative to this skill's actual installation directory; do not assume a particular agent, home directory, browser, or operating system.

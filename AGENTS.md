@@ -2,9 +2,9 @@
 
 ## Installing for a user
 
-If asked to install or use a skill, read its `skills/<name>/SKILL.md`, then any first-use guide it links. For send-to-kobo, use [the agent setup guide](skills/send-to-kobo/references/setup.md). Install the complete folder using the skills CLI or the current agent's supported manual installation path. Never run a real upload just to discover a skill.
+If asked to install or use a skill, read its `skills/<name>/SKILL.md`, then any first-use guide it links. Install the complete folder using the skills CLI or the current agent's supported manual installation path. Never run a real upload just to discover a skill.
 
-Resolve resources relative to the installed skill folder. Use the user's own account. Have the user enter credentials through a private terminal prompt or secret manager, never chat, command-line literals or repository files. Do not copy the maintainer's local configuration. Confirm a test on the user's physical device rather than treating a web/API success as proof.
+Resolve resources relative to the installed skill folder. Use the user's own account. Have the user enter credentials through a private terminal prompt or secret manager, never chat, command-line literals or repository files. Do not copy the maintainer's local configuration. Validate the outcome as described by the selected skill; distinguish an accepted request from its completed real-world result.
 
 ## Maintaining the repository
 

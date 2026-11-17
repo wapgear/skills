@@ -1,9 +1,13 @@
 {
   "name": "wapgear-skills",
   "version": "0.1.0",
-  "description": "Practical agent skills, starting with private reports for Kobo via Instapaper.",
-  "author": {"name": "wapgear"},
-  "repository": "https://github.com/wapgear/skils",
+  "description": "A public collection of practical skills for AI agents.",
+  "author": {
+    "name": "wapgear"
+  },
+  "repository": "https://github.com/wapgear/skills",
   "license": "MIT",
-  "skills": ["./skills/send-to-kobo"]
+  "skills": [
+    "./skills/send-to-kobo"
+  ]
 }
