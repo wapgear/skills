@@ -1,0 +1,4 @@
+interface:
+  display_name: "Send this to my Kobo"
+  short_description: "Send private reading copies to Kobo via Instapaper"
+  default_prompt: "Use $send-to-kobo to prepare this content and upload it privately to Instapaper for my Kobo."
